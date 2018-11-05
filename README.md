@@ -48,8 +48,8 @@ CONFIG
 # Features and TODOs
 
 - [x] Successfully intercepts `libc` calls
-- [ ] Intercepts raw syscalls on x86_64 Linux
-- [ ] Prevents `dropboxd` from popping up a warning about impending failure
+- [x] Intercepts raw syscalls on x86_64 Linux
+- [x] Prevents `dropboxd` from popping up a warning about impending failure
 - [ ] Keeps working after the "drop-dead" date
 - [ ] Check into overriding [`statvfs` `f_fsid` field][statvfs]
 
